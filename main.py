@@ -13,9 +13,9 @@ running = True
 icon = pygame.image.load("img/tir_1.webp")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/target2.jpeg")
-target_width = 213
-target_height = 236
+target_img = pygame.image.load("img/target.jpeg")
+target_width = 210
+target_height = 240
 
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
