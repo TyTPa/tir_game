@@ -24,7 +24,7 @@ running = True
 icon = pygame.image.load("img/tir_1.webp")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/target.jpg")
+target_img = pygame.image.load("img/target.jpeg")
 target_width = 210
 target_height = 240
 
