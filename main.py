@@ -13,16 +13,15 @@ running = True
 icon = pygame.image.load("img/tir_1.webp")
 pygame.display.set_icon(icon)
 
-target_img = pygame.image.load("img/target.jpeg")
-target_width = 80
-target_height = 80
+target_img = pygame.image.load("img/target2.jpeg")
+target_width = 213
+target_height = 236
 
 target_x = random.randint(0, SCREEN_WIDTH - target_width)
 target_y = random.randint(0, SCREEN_HEIGHT - target_height)
 
 color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 
-running = True
 while running:
     screen.fill(color)
     for event in pygame.event.get():
